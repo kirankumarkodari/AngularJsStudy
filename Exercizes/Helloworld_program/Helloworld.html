@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="utf 8">
+    <title>MyFirstApp</title>   
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<script src="https://code.angularjs.org/1.6.9/angular.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+</head>  
+<body ng-app="helloworld_app">
+<h1 ng-controller="HelloWorldCtrl">{{total_msg}}</h1>
+<script>  
+    angular.module("helloworld_app", []).controller("HelloWorldCtrl", function($scope) {  
+    $scope.message="Hello World ";  
+	 $scope.name="Kiran!!" ;
+	 $scope.total_msg=$scope.message+ $scope.name ;
+    } )
+</script> 
+
+</body>  
+</html>

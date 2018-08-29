@@ -1,0 +1,24 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="utf 8">
+    <title>MyFirstApp</title>   
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+</head>  
+<body ng-app="helloworld_app">
+<form>
+		&nbsp;&nbsp;&nbsp;Topic Description:<br> <br>
+		&nbsp;&nbsp;&nbsp;
+	<textarea rows="4" cols="50" ng-model="pDescription"></textarea><br><br> 
+	</form>
+<script>  
+var app = angular.module('DemoApp',[]);
+	app.controller('DemoCtrl', function($scope){
+		$scope.pDescription="This topic looks at how Angular JS works \nModels in Angular JS"});
+</script> 
+
+</body>  
+</html>

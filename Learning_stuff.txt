@@ -1,0 +1,25 @@
+--> Angular Js tutorial (udemy course )
+https://www.udemy.com/the-complete-guide-to-angular-2/?siteID=jU79Zysihs4-ItG0i4tzLzNhbvX5Qd_N1Q&LSNPUBID=jU79Zysihs4
+https://alison.com/topic/learn/65152/module-1-learning-outcomes
+
+
+
+--> What should i use Jquery or AngularJS to develop PWA?
+https://www.quora.com/Should-we-use-jQuery-or-AngularJS-in-progressive-web-app-Is-it-a-good-approach-or-not
+
+
+
+--> Learning Angular JS: 
+https://www.guru99.com/angularjs-introduction.html
+https://www.quora.com/Why-is-angularJS-so-famous-now-Is-it-much-better-than-other-JS-frameworks-like-knockout-note-etc
+
+
+--> What is the difference between ng-bind and ng-model ? 
+https://stackoverflow.com/questions/12419619/whats-the-difference-between-ng-model-and-ng-bind
+Ans: ng-bind is only required where the value to display does not require user input. And, ng-modal would be used for values (<input>) that do. The angular documentation seems to suggest this but I'm after a better understanding.
+
+     ng-bind: {{}}
+     ng-model: Scope member variable which supports two way data binding this mainly uses for form inputs.
+
+
+
